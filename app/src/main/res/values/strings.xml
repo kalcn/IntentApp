@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BMI計算機</string>
+    <string name="title_second">顯示BMI結果</string>
+</resources>
