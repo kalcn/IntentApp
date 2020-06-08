@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txvBMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
@@ -29,11 +29,11 @@
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/txvBMI"
+        app:layout_constraintTop_toBottomOf="@+id/txvBMI" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBMI"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -46,19 +46,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintBottom_toBottomOf="@+id/txvBMI"
+        app:layout_constraintStart_toEndOf="@+id/txvBMI"
+        app:layout_constraintTop_toTopOf="@+id/txvBMI" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edtWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
